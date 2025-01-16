@@ -85,9 +85,9 @@ This suggests that the impact of work location on work-life balance may vary dep
 ## Recommendations
 Based on the analysis of HR data, the following recommendations are proposed:
 -	Implement Targeted Well-being Programs for Remote Employees: Develop and implement targeted well-being programs for remote employees to mitigate the negative impacts of social isolation and promote work-life balance. This could involve: 
-  - Virtual Team-building Activities: Organize regular virtual team-building activities, social events, and online communication channels to foster social connections and a sense of community among remote employees.
-  - Online Mental Health Resources: Provide access to online mental health resources, such as counseling services, stress management tools, and mindfulness programs, to support remote employees' mental well-being.
-  - Flexible Work Arrangements: Offer flexible work arrangements for remote employees, such as flexible work hours or the option to work from co-working spaces, to promote work-life balance and reduce stress levels.
+    - Virtual Team-building Activities: Organize regular virtual team-building activities, social events, and online communication channels to foster social connections and a sense of community among remote employees.
+    - Online Mental Health Resources: Provide access to online mental health resources, such as counseling services, stress management tools, and mindfulness programs, to support remote employees' mental well-being.
+    - Flexible Work Arrangements: Offer flexible work arrangements for remote employees, such as flexible work hours or the option to work from co-working spaces, to promote work-life balance and reduce stress levels.
 -	Promote Work-Life Balance for All Employees: Encourage all employees to prioritize work-life balance by promoting healthy work habits, offering flexible work arrangements where possible, and providing resources and support for managing stress and mental health.
 -	Address Mental Health Concerns: Provide access to mental health resources and support for all employees, regardless of work location. This could involve offering employee assistance programs, mental health workshops, or partnerships with mental health providers.
 -	Monitor Employee Well-being: Regularly monitor employee well-being through surveys, feedback sessions, and performance reviews to identify any emerging trends or areas for improvement.
