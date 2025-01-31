@@ -4,13 +4,12 @@
 This report presents a comprehensive analysis of HR data, focusing on the impact of work location (remote, onsite, hybrid) on employee well-being, stress levels, mental health, and productivity. By examining key metrics and trends across different work locations, we aim to provide actionable insights to optimize work arrangements, promote employee well-being, and enhance productivity.
 
 ## Executive Summary
-This analysis was conducted to provide a comprehensive overview of the impact of work location on employee well-being and productivity. By examining key metrics such as stress levels, mental health conditions, work-life balance ratings, and productivity changes, we identified key trends and potential areas for intervention. A key insight from the analysis is that remote employees reported the highest levels of stress and social isolation, while hybrid employees reported the highest work-life balance ratings (see Analysis of Employee Well-being by Work Location). Based on the analysis, we recommend implementing targeted well-being programs for remote employees to mitigate the negative impacts of social isolation and promote work-life balance. This could involve virtual team-building activities, online mental health resources, and flexible work arrangements. By implementing these recommendations, the company can potentially improve employee well-being, reduce stress levels, and enhance productivity across all work locations (see Potential Impact of Recommendations).   
+By examining key metrics such as stress levels, mental health conditions, work-life balance ratings, and productivity changes, we identified key trends and potential areas for intervention. A key insight from the analysis is that remote employees reported the highest levels of stress and social isolation, while hybrid employees reported the highest work-life balance ratings [(see Analysis of Employee Well-being by Work Location)](#Analysis-of-Employee-Well-being-by-Work-Location). Based on the analysis, we recommend implementing targeted well-being programs for remote employees to mitigate the negative impacts of social isolation and promote work-life balance. This could involve virtual team-building activities, online mental health resources, and flexible work arrangements. By implementing these recommendations, the company can potentially improve employee well-being, reduce stress levels, and enhance productivity across all work locations [(see Potential Impact of Recommendations)](#Potential-Impact-of-Recommendations).   
 
 ## Task/Objective
 The objective of this analysis is to understand the impact of different work locations (remote, onsite, hybrid) on employee well-being, stress levels, mental health, and productivity. This involves:
 -	Data Exploration: Exploring the HR data to understand its structure, identify key variables, and assess data quality.
 -	Comparative Analysis: Comparing key metrics and trends across different work locations to identify any significant differences or patterns.
--	Trend Analysis: Analyzing trends in stress levels, mental health conditions, and productivity changes over time to identify any emerging issues or areas for improvement.
 -	Segmentation Analysis: Segmenting the data by job role and work location to understand the specific needs and challenges of different employee groups.
 -	Data Visualization: Creating interactive dashboards and visualizations to effectively communicate the key findings and insights from the analysis.
 
@@ -28,7 +27,7 @@ The primary data source for this analysis is an HR dataset comprising 5,000 rows
 ### Tools Used
 The following tools were used for data analysis and visualization:
 -	Microsoft Excel – Data familiarization
--	Microsoft SQL Server – Data exploration
+-	Microsoft SQL Server – Data exploration and aggregation
 -	Microsoft PowerBI – Data visualization
 
 ### Data Exploration
@@ -43,13 +42,12 @@ Initial data exploration was conducted using SQL Server to calculate key metrics
 ### Data Analysis Techniques
 The following data analysis techniques were employed:
 -	Comparative Analysis: We compared key metrics and trends across different work locations to identify any significant differences or patterns. This involved grouping data by work location and analyzing metrics such as stress levels, mental health conditions, work-life balance ratings, and productivity changes.
--	Trend Analysis: We analyzed trends in stress levels, mental health conditions, and productivity changes over time to identify any emerging issues or areas for improvement. This involved visualizing trends over time to identify any significant changes or patterns.
--	Segmentation Analysis: We segmented the data by job role and work location to understand the specific needs and challenges of different employee groups. This involved grouping data by job role within each work location and analyzing key metrics to identify any significant differences or trends.
+-	Segmentation Analysis: We segmented the data by job role and work location to understand the specific needs and challenges of different employee groups. This involved grouping data by job role within each work location and analyzing work life balance to identify any significant differences or trends.
 -	Diagnostic Analysis: This analysis was used to identify the root cause of the higher stress levels reported by remote employees. By examining various factors such as social isolation, lack of access to support resources, or challenges with work-life balance, we aimed to understand the underlying reasons for this trend.   
 
 ## Future Considerations for Data Analysis
 In the future, we can leverage additional data analysis techniques to further refine our understanding of employee well-being and productivity. These techniques include:
--	Text Analysis: This technique can be used to analyze employee feedback and survey responses to identify key themes and sentiments related to work arrangements, well-being, and productivity. By extracting insights from unstructured data such as employee comments and suggestions, we can gain a deeper understanding of employee needs and identify areas for improvement.
+-	Feedback Analysis: This technique can be used to analyze employee feedback and survey responses to identify key themes and sentiments related to work arrangements, well-being, and productivity. By extracting insights from unstructured data such as employee comments and suggestions, we can gain a deeper understanding of employee needs and identify areas for improvement.
 -	Sentiment Analysis: This method relies on natural language processing to determine whether the unstructured data represents positive or negative emotions. By analyzing employee sentiment towards different work arrangements, policies, or initiatives, we can identify areas where employee satisfaction is high or low and make data-driven decisions to improve the overall employee experience.   
 -	Network Analysis: This technique can be used to analyze communication patterns and social connections among employees, particularly in remote or hybrid work environments. By understanding how employees interact and collaborate, we can identify potential communication barriers, promote team cohesion, and optimize virtual collaboration strategies.
 
@@ -62,7 +60,6 @@ The overall distribution of employees across different work locations is as foll
 -	Remote: 1,714 employees (34.3%)
 
 This indicates a relatively balanced distribution of employees across different work arrangements.
-(Insert visualizations: Pie chart showing the distribution of employees by work location)
 
 ### Analysis of Employee Well-being by Work Location
 -	Stress Levels: Remote employees reported the highest percentage of high stress levels (34.42%), followed by hybrid (34.02%) and onsite (32.68%) employees. This suggests that remote work may be associated with increased stress levels, potentially due to factors such as social isolation, lack of clear boundaries between work and personal life, or challenges with communication and collaboration.
@@ -70,7 +67,6 @@ This indicates a relatively balanced distribution of employees across different 
 -	Sleep Quality: Remote employees had a slightly higher percentage of employees reporting poor sleep quality compared to onsite and hybrid employees. This suggests that remote work may be impacting sleep patterns, potentially due to increased work hours, blurred boundaries between work and personal life, or heightened stress levels.
 -	Work-Life Balance: Hybrid employees reported the highest average work-life balance rating (3.02), followed by onsite (2.95) and remote (2.98) employees. This suggests that hybrid work arrangements may offer a better balance between work and personal life compared to fully remote or onsite work.
 -	Social Isolation: Remote employees reported the highest average social isolation rating (2.96), followed by hybrid (3.01) and onsite (3.01) employees. This highlights the potential for social isolation among remote employees and the need for interventions to promote social connections and a sense of belonging.
-(Insert visualizations: Bar charts comparing stress levels, mental health conditions, and sleep quality across different work locations)
 
 ### Segmentation Analysis by Job Role
 A segmentation analysis of work-life balance ratings by job role within each work location revealed the following:
@@ -79,8 +75,6 @@ A segmentation analysis of work-life balance ratings by job role within each wor
 -	Hybrid: Sales and project managers reported the highest work-life balance ratings (3.08 and 3.07 respectively), while HR employees reported the lowest (2.93).
 
 This suggests that the impact of work location on work-life balance may vary depending on the specific job role and its associated responsibilities and demands.
-
-(Insert visualizations: Charts or tables showing work-life balance ratings by job role within each work location)
 
 ## Recommendations
 Based on the analysis of HR data, the following recommendations are proposed:
@@ -103,7 +97,7 @@ By implementing these recommendations, the company can anticipate the following 
 ## Limitations and Future Considerations
 While this analysis provides valuable insights and recommendations, it's important to acknowledge certain limitations:
 -	Data Availability: The analysis is limited by the available HR data. Access to more granular data, such as employee feedback, performance reviews, and health records, would allow for a more comprehensive analysis and more personalized recommendations.
--	External Factors: External factors such as economic conditions, industry trends, and personal circumstances can influence employee well-being and productivity and should be considered in future analyses.
+-	External Factors: External factors such as economic conditions, industry trends, employee salaries, cost of living data, and personal circumstances can influence employee well-being and productivity and should be considered in future analyses.
 
 ## Key Takeaways
 This analysis provides valuable insights into the impact of work location on employee well-being and productivity. Here are the key takeaways:
