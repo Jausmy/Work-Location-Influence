@@ -77,7 +77,7 @@ The overall distribution of employees across different work locations is as foll
 -	Onsite: 1,637 employees (32.7%)
 -	Remote: 1,714 employees (34.3%)
 
-![Employee-Count]Assets/Images/HR%20-%20Employee%20Numbers.png)
+![Employee-Count](Assets/Images/HR%20-%20Employee%20Numbers.png)
 
 This indicates a relatively balanced distribution of employees across different work arrangements.
 
