@@ -1,4 +1,5 @@
 # Data Portfolio: Work Location Effects Analysis
+![HR-Project-Main-Image](Assets/Images/Work%20Location%20Main%20Image.jpg)
 
 ## Overview
 This report presents a comprehensive analysis of HR data, focusing on the impact of work location (remote, onsite, hybrid) on employee well-being, stress levels, mental health, and productivity. By examining key metrics and trends across different work locations, we aim to provide actionable insights to optimize work arrangements, promote employee well-being, and enhance productivity.
@@ -24,6 +25,8 @@ The primary data source for this analysis is an HR dataset comprising 5,000 rows
 -	Lifestyle Factors (Physical_Activity, Sleep_Quality)
 -	Location (Onsite, Remote, Hybrid)
 
+![Data-Source](Assets/Images/HR%20-%20Data%20Source.png)
+
 ### Tools Used
 The following tools were used for data analysis and visualization:
 -	Microsoft Excel – Data familiarization
@@ -34,10 +37,25 @@ The following tools were used for data analysis and visualization:
 Initial data exploration was conducted using SQL Server to calculate key metrics and aggregate data by work location. This involved:
 -	Counting total employees by work location.
 -	Counting stress level responses per work location.
+
+![SQL-Code-1](Assets/Images/HR%20-%20Data%20Exploration.png)
+
 -	Counting mental health condition responses per work location.
 -	Counting sleep quality responses per work location.
+
+![SQL-Code-2](Assets/Images/HR%20-%20Data%20Exploration%202.png)
+
 -	Calculating the percentage of total employees that fell into each stress level category per work location.
+
+![SQL-Code-3](Assets/Images/HR%20-%20Data%20Exploration%203.png)
+
 -	Calculating average hours worked, average work-life balance rating, and average social isolation rating.
+
+![SQL-Code-4](Assets/Images/HR%20-%20Data%20Exploration%204.png)
+
+-    Calculating average work life balance rating for each job role at each location.
+
+![SQL-Code-5](Assets/Images/HR%20-%20Data%20Exploration%205.png)
 
 ### Data Analysis Techniques
 The following data analysis techniques were employed:
@@ -59,20 +77,35 @@ The overall distribution of employees across different work locations is as foll
 -	Onsite: 1,637 employees (32.7%)
 -	Remote: 1,714 employees (34.3%)
 
+![Employee-Count]Assets/Images/HR%20-%20Employee%20Numbers.png)
+
 This indicates a relatively balanced distribution of employees across different work arrangements.
 
 ### Analysis of Employee Well-being by Work Location
 -	Stress Levels: Remote employees reported the highest percentage of high stress levels (34.42%), followed by hybrid (34.02%) and onsite (32.68%) employees. This suggests that remote work may be associated with increased stress levels, potentially due to factors such as social isolation, lack of clear boundaries between work and personal life, or challenges with communication and collaboration.
+
+![Remote-Stress-Level](Assets/Images/HR%20-%20Remote%20Pie.png)
+
 -	Mental Health Conditions: Remote employees also reported a higher prevalence of mental health conditions such as anxiety, burnout, and depression compared to onsite and hybrid employees. This further emphasizes the need to address the potential mental health challenges associated with remote work.
+
+![Mental-Health-Conditions](Assets/Images/HR%20-%20SQL%20Query%20Mental%20.png)
+
 -	Sleep Quality: Remote employees had a slightly higher percentage of employees reporting poor sleep quality compared to onsite and hybrid employees. This suggests that remote work may be impacting sleep patterns, potentially due to increased work hours, blurred boundaries between work and personal life, or heightened stress levels.
+
+![Sleep-Quality](Assets/Images/HR%20-%20SQL%20Query%20Sleep.png)
+
 -	Work-Life Balance: Hybrid employees reported the highest average work-life balance rating (3.02), followed by onsite (2.95) and remote (2.98) employees. This suggests that hybrid work arrangements may offer a better balance between work and personal life compared to fully remote or onsite work.
 -	Social Isolation: Remote employees reported the highest average social isolation rating (2.96), followed by hybrid (3.01) and onsite (3.01) employees. This highlights the potential for social isolation among remote employees and the need for interventions to promote social connections and a sense of belonging.
+
+![Average-Ratings](Assets/Images/HR%20-%20SQL%20Query%20Avg%20Ratings.png)
 
 ### Segmentation Analysis by Job Role
 A segmentation analysis of work-life balance ratings by job role within each work location revealed the following:
 -	Remote: Software engineers reported the highest work-life balance rating (3.23), while marketing employees reported the lowest (2.72).
 -	Onsite: Sales employees reported the highest work-life balance rating (3.07), while software engineers reported the lowest (2.91).
 -	Hybrid: Sales and project managers reported the highest work-life balance ratings (3.08 and 3.07 respectively), while HR employees reported the lowest (2.93).
+
+![Work-Life_Balance](Assets/Images/HR%20-%20Job%20Role%20Work%20Life%20Balance.png)
 
 This suggests that the impact of work location on work-life balance may vary depending on the specific job role and its associated responsibilities and demands.
 
