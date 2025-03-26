@@ -94,16 +94,17 @@ This indicates a relatively balanced distribution of employees across different 
 
 ![Sleep-Quality](Assets/Images/HR%20-%20SQL%20Query%20Sleep.png)
 
--	Work-Life Balance: Hybrid employees reported the highest average work-life balance rating (3.02), followed by onsite (2.95) and remote (2.98) employees. This suggests that hybrid work arrangements may offer a better balance between work and personal life compared to fully remote or onsite work.
--	Social Isolation: Remote employees reported the highest average social isolation rating (2.96), followed by hybrid (3.01) and onsite (3.01) employees. This highlights the potential for social isolation among remote employees and the need for interventions to promote social connections and a sense of belonging.
+-	Work-Life Balance: Hybrid employees reported the highest average work-life balance rating (3.02), followed by remote (2.98) and onsite (2.95) employees. This suggests that hybrid work arrangements may offer a better balance between work and personal life compared to fully remote or onsite work.
+
+-	Social Isolation: Remote employees reported the lowest average social isolation rating (2.96), followed by hybrid (3.01) and onsite (3.01) employees. This suggests that remote work, in this sample, may not lead to increased social isolation compared to hybrid or onsite work.
 
 ![Average-Ratings](Assets/Images/HR%20-%20SQL%20Query%20Avg%20Ratings.png)
 
 ### Segmentation Analysis by Job Role
 A segmentation analysis of work-life balance ratings by job role within each work location revealed the following:
 -	Remote: Software engineers reported the highest work-life balance rating (3.23), while marketing employees reported the lowest (2.72).
--	Onsite: Sales employees reported the highest work-life balance rating (3.07), while software engineers reported the lowest (2.91).
--	Hybrid: Sales and project managers reported the highest work-life balance ratings (3.08 and 3.07 respectively), while HR employees reported the lowest (2.93).
+-	Onsite: Sales employees reported the highest work-life balance rating (3.07), while HR reported the lowest (2.86).
+-	Hybrid: Sales and Marketing reported the highest work-life balance ratings (3.08), while HR employees reported the lowest (2.93).
 
 ![Work-Life_Balance](Assets/Images/HR%20-%20Job%20Role%20Work%20Life%20Balance.png)
 
@@ -111,8 +112,8 @@ This suggests that the impact of work location on work-life balance may vary dep
 
 ## Recommendations
 Based on the analysis of HR data, the following recommendations are proposed:
--	Implement Targeted Well-being Programs for Remote Employees: Develop and implement targeted well-being programs for remote employees to mitigate the negative impacts of social isolation and promote work-life balance. This could involve:
-    -	Virtual Team-building Activities: Organize regular virtual team-building activities, social events, and online communication channels to foster social connections and a sense of community among remote employees.
+-	Implement Targeted Well-being Programs for Onsite Employees: Develop and implement targeted well-being programs for onsite employees to mitigate the negative impacts of social isolation and promote work-life balance. This could involve:
+    -	Team-building Activities: Organize regular team-building activities, social events, and online communication channels to foster social connections and a sense of community among onsite employees.
     -	Online Mental Health Resources: Provide access to online mental health resources, such as counseling services, stress management tools, and mindfulness programs, to support remote employees' mental well-being.
     -	Flexible Work Arrangements: Offer flexible work arrangements for remote employees, such as flexible work hours or the option to work from co-working spaces, to promote work-life balance and reduce stress levels.
 -	Promote Work-Life Balance for All Employees: Encourage all employees to prioritize work-life balance by promoting healthy work habits, offering flexible work arrangements where possible, and providing resources and support for managing stress and mental health.
@@ -134,7 +135,7 @@ While this analysis provides valuable insights and recommendations, it's importa
 
 ## Key Takeaways
 This analysis provides valuable insights into the impact of work location on employee well-being and productivity. Here are the key takeaways:
--	Remote work may be associated with increased stress: Remote employees reported the highest levels of stress and social isolation.
+-	Remote work may be associated with increased stress: Remote employees reported the highest levels of stress and mental health conditions.
 -	Hybrid work may offer a better work-life balance: Hybrid employees reported the highest work-life balance ratings.
 -	Mental health support is crucial for all employees: Mental health conditions were prevalent across all work locations, highlighting the need for comprehensive mental health support.
 -	Job roles influence work-life balance: The impact of work location on work-life balance varies depending on the specific job role.
